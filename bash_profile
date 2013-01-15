@@ -14,6 +14,11 @@ export EDITOR="subl -w"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
+
+# Quickly edit this file
+alias sblpf="scripts; subl ."
+
+
 # http://www.aschroder.com/2009/03/how-to-use-the-mamp-mysql-command-line-client-in-a-terminal/
 # add mysql for mamp to command line easy access
 alias db="/Applications/MAMP/Library/bin/mysql -uroot -proot"
@@ -90,3 +95,29 @@ alias sblpref="subl ~/Dropbox/Shared\ Folders/Sync/Sublime/Preferences.sublime-s
 # Hosts file
 alias hosts="sudo subl /private/etc/hosts"
 alias flush="dscacheutil -flushcache"
+
+
+
+# From alias.sh
+# go back x directories
+b() {
+    str=""
+    count=0
+    while [ "$count" -lt "$1" ];
+    do
+        str=$str"../"
+        let count=count+1
+    done
+    cd $str
+}
+
+# make and cd into a directory
+function mcd() {
+  mkdir -p "$1" && cd "$1";
+}
+
+# search for process
+alias tm='ps -ef | grep'
+
+# show which commands you use the most
+alias freq='cut -f1 -d" " ~/.bash_history | sort | uniq -c | sort -nr | head -n 30'
