@@ -1,4 +1,5 @@
-# Syncing repo for dotfiles of Aaron Holbrook, feel free to use for inspiration!
+# Syncing repository for dotfiles.
+## Feel free to use for inspiration!
 
 I put the following command into a Text Expander snippet:
 
