@@ -1,8 +1,3 @@
-if [ -f ~/.bash_aliases ]; then
-  . ~/.bash_aliases
-fi
-
-
 # http://superuser.com/questions/63897/bash-creating-a-useful-bash-profile
 userprompt () {
 local usercolor="\[\033[1;36m\]"
