@@ -1,4 +1,3 @@
-
 # Quickly edit this file
 alias sblpf="scripts; cd dotfiles; subl ."
 
@@ -7,20 +6,6 @@ alias sblpf="scripts; cd dotfiles; subl ."
 # add mysql for mamp to command line easy access
 alias db="/Applications/MAMP/Library/bin/mysql -uroot -proot"
 
-
-# default add color to ls
-alias ls="ls -Gal"
-alias sl="ls"
-
-# Add to grep: color, line numbers, context of 1 line
-alias grep="grep --color -n -B 1"
-
-# show folders
-alias lp="ls -p"
-
-# a couple misc/simple commands
-alias h="history"
-alias "cd.."="cd .."
 
 # quick cd commands
 alias box="cd ~/Dropbox/"
@@ -79,29 +64,3 @@ alias sblpref="subl ~/Dropbox/Shared\ Folders/Sync/Sublime/Preferences.sublime-s
 # Hosts file
 alias hosts="sudo subl /private/etc/hosts"
 alias flush="dscacheutil -flushcache"
-
-
-
-# From alias.sh
-# go back x directories
-b() {
-    str=""
-    count=0
-    while [ "$count" -lt "$1" ];
-    do
-        str=$str"../"
-        let count=count+1
-    done
-    cd $str
-}
-
-# make and cd into a directory
-function mcd() {
-  mkdir -p "$1" && cd "$1";
-}
-
-# search for process
-alias tm='ps -ef | grep'
-
-# show which commands you use the most
-alias freq='cut -f1 -d" " ~/.bash_history | sort | uniq -c | sort -nr | head -n 30'
