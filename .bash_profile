@@ -16,7 +16,11 @@ export EDITOR="subl -w"
 
 
 # default add color to ls
-alias ls="ls -Galh"
+# G - colorized output
+# F - Visual Classification of Files With Special Characters
+# a - show hidden files/folders
+# l - list format
+alias ls="ls -GFal"
 alias sl="ls"
 
 # Add to grep: color, line numbers, context of 1 line
