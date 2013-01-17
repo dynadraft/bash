@@ -16,7 +16,7 @@ export EDITOR="subl -w"
 
 
 # default add color to ls
-alias ls="ls -Gal"
+alias ls="ls -Galh"
 alias sl="ls"
 
 # Add to grep: color, line numbers, context of 1 line
