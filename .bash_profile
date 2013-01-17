@@ -3,7 +3,7 @@ userprompt () {
 local usercolor="\[\033[1;36m\]"
 [[ $EUID == 0 ]] && usercolor="\[\033[1;31m\]"
 PS1="\n--$(pwd)"
-PS1="${PS1//\//$usercolor/\[\033[0;1m\]}$usercolor\[\033[0m\]-- \n\[\033[1;30m\]\[\033[1;35m\]$> \[\033[0m\]"
+PS1="${PS1//\//$usercolor/\[\033[0;1m\]}$usercolor\[\033[0m\]-- \n\h:\[\033[1;30m\]\[\033[1;35m\]$> \[\033[0m\]"
 }
 
 PROMPT_COMMAND=userprompt
