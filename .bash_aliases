@@ -12,15 +12,15 @@ alias sites="cd ~/Dropbox/Sites/"
 alias dev="sites; cd dev"
 alias lab="cd ~/Dropbox/Sites/dev/lab"
 alias sync="cd ~/Dropbox/Shared\ Folders/Sync/"
-alias tools="cd ~/Dropbox/Sites/__TOOLS/"
-alias scripts="cd ~/Dropbox/Sites/__TOOLS/scripts/"
+alias tools="cd ~/Dropbox/Sites/_TOOLS/"
+alias scripts="cd ~/Dropbox/Sites/_TOOLS/scripts/"
 
 # scripts
 alias cdwpb="scripts; cd WordPress-Builder"
-alias sblwpb="subl ~/Dropbox/Sites/__TOOLS/scripts/WordPress-Builder"
+alias sblwpb="subl ~/Dropbox/Sites/_TOOLS/scripts/WordPress-Builder"
 
 # themes
-alias blueox="cd ~/Dropbox/Sites/__TOOLS/blue-ox"
+alias blueox="cd ~/Dropbox/Sites/_TOOLS/blue-ox"
 alias sblblueox="cdblueox; subl ."
 
 #documents and stuff
