@@ -1,5 +1,6 @@
 # Quickly edit this file
 alias sblpf="scripts; cd dotfiles; subl ."
+alias dotfiles="cd scripts; cd dotfiles;"
 
 # quick cd commands
 alias box="cd ~/Dropbox/"
