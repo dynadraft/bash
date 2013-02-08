@@ -1,10 +1,6 @@
 # Quickly edit this file
 alias sblpf="scripts; cd dotfiles; subl ."
 
-# http://www.aschroder.com/2009/03/how-to-use-the-mamp-mysql-command-line-client-in-a-terminal/
-# add mysql for mamp to command line easy access
-alias db="/Applications/MAMP/Library/bin/mysql -uroot -proot"
-
 # quick cd commands
 alias box="cd ~/Dropbox/"
 alias github="cd ~/Dropbox/GitHub/"
