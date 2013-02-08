@@ -53,3 +53,6 @@ alias flush="dscacheutil -flushcache"
 
 # Get to homebrew
 alias cellar="cd /usr/local/Cellar"
+
+# User Config
+alias etc="cd /usr/local/etc"
