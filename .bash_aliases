@@ -50,3 +50,6 @@ alias sblpref="subl ~/Dropbox/Shared\ Folders/Sync/Sublime/Preferences.sublime-s
 # Hosts file
 alias hosts="sudo subl /private/etc/hosts"
 alias flush="dscacheutil -flushcache"
+
+# Get to homebrew
+alias cellar="cd /usr/local/Cellar"
