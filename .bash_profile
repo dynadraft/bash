@@ -15,6 +15,9 @@ export EDITOR="subl -w"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 
+# Increase size of bash history
+HISTFILESIZE=2500
+
 # default add color to ls
 # G - colorized output
 # F - Visual Classification of Files With Special Characters
