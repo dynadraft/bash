@@ -5,19 +5,19 @@ alias dotfiles="scripts; cd dotfiles;"
 # quick cd commands
 alias box="cd ~/Dropbox/"
 alias github="cd ~/Dropbox/GitHub/"
-alias sites="cd ~/Dropbox/Sites/"
+alias sites="cd ~/Dropbox/sites/"
 alias dev="sites; cd dev"
-alias lab="cd ~/Dropbox/Sites/dev/lab"
+alias lab="cd ~/Dropbox/sites/dev/lab"
 alias sync="cd ~/Dropbox/Shared\ Folders/Sync/"
-alias tools="cd ~/Dropbox/Sites/_TOOLS/"
-alias scripts="cd ~/Dropbox/Sites/_TOOLS/scripts/"
+alias tools="cd ~/Dropbox/sites/_TOOLS/"
+alias scripts="cd ~/Dropbox/sites/_TOOLS/scripts/"
 
 # scripts
 alias cdwpb="scripts; cd WordPress-Builder"
 alias sblwpb="subl ~/Dropbox/Sites/_TOOLS/scripts/WordPress-Builder"
 
 # themes
-alias blueox="cd ~/Dropbox/Sites/_TOOLS/blue-ox"
+alias blueox="cd ~/Dropbox/sites/_TOOLS/blue-ox"
 alias sblblueox="cdblueox; subl ."
 
 #documents and stuff
@@ -35,8 +35,9 @@ alias .gitignore="subl ~/.gitignore"
 alias .svnconfig="subl ~/.subversion/config"
 
 #specific sites
-alias sassy="sites; cd Sassy"
-alias acton="sites; cd Acton"
+alias clients="sites; cd clients"
+alias sassy="clients; cd sassy"
+alias helio="clients; cd helio"
 
 # Quickly edit this profile
 alias profile="subl ~/Dropbox/Shared\ Folders/Sync/Bash\ Profile/.bash_profile"
