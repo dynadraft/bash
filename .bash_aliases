@@ -1,5 +1,5 @@
 # Quickly edit this file
-alias sblpf="scripts; cd dotfiles; subl ."
+alias sb="scripts; cd dotfiles; subl ."
 alias dotfiles="scripts; cd dotfiles;"
 
 # quick cd commands
@@ -14,18 +14,17 @@ alias scripts="cd ~/Dropbox/sites/_TOOLS/scripts/"
 
 # scripts
 alias cdwpb="scripts; cd WordPress-Builder"
-alias sblwpb="subl ~/Dropbox/Sites/_TOOLS/scripts/WordPress-Builder"
+alias sbwpb="subl ~/Dropbox/Sites/_TOOLS/scripts/WordPress-Builder"
 
 # themes
 alias blueox="cd ~/Dropbox/sites/_TOOLS/blue-ox"
-alias sblblueox="cdblueox; subl ."
+alias sbblueox="cdblueox; subl ."
 
 #documents and stuff
 alias documents="cd ~/Dropbox/Documents/"
 
 #plugins and projects
 alias plugins="dev; cd PLUGINS"
-alias konami="plugins; cd WP_KONAMI/html/wp-content/plugins/the-konami-code"
 
 #gitconfig
 alias .gitconfig="subl ~/.gitconfig"
@@ -38,9 +37,6 @@ alias .svnconfig="subl ~/.subversion/config"
 alias clients="sites; cd clients"
 alias sassy="clients; cd sassy"
 alias helio="clients; cd helio"
-
-# Quickly edit this profile
-alias profile="subl ~/Dropbox/Shared\ Folders/Sync/Bash\ Profile/.bash_profile"
 
 # Sublime Package Directory
 alias packages="cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages"
