@@ -1,5 +1,6 @@
 # Quickly edit this file
 alias sbdotfiles="github; cd dotfiles; subl ."
+alias sbdf="sbdotfiles"
 alias dotfiles="github; cd dotfiles;"
 
 # quick cd commands
@@ -14,7 +15,7 @@ alias tools="cd ~/Dropbox/sites/_TOOLS/"
 alias scripts="cd ~/Dropbox/GitHub/scripts/"
 
 # scripts
-alias cdwpb="scripts; cd WordPress-Builder"
+alias cdwpb="github; cd WordPress-Builder"
 alias sbwpb="cdwpb; subl ."
 
 # themes
