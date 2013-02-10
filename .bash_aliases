@@ -31,7 +31,6 @@ alias dox="docs"
 alias plugins="dev; cd PLUGINS"
 
 #gitconfig
-alias gitconfig="subl ~/.gitconfig"
 alias gitignore="subl ~/.gitignore"
 
 #svn config
