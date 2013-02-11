@@ -59,3 +59,7 @@ alias local="cd /usr/local/"
 
 # User Config
 alias etc="cd /usr/local/etc"
+
+# Hub
+# https://github.com/defunkt/hub
+eval "$(hub alias -s)"
