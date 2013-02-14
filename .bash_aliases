@@ -15,7 +15,7 @@ alias tools="cd ~/Dropbox/sites/_TOOLS/"
 alias scripts="cd ~/Dropbox/GitHub/scripts/"
 
 # scripts
-alias wpb="github; cd WordPress-Builder"
+alias cdwpb="github; cd wpbuildr"
 alias sbwpb="wpb; subl ."
 
 # themes
