@@ -56,6 +56,7 @@ alias cellar="cd /usr/local/Cellar"
 
 # Get to user local
 alias local="cd /usr/local/"
+alias etc="local; cd etc/"
 
 # User Config
 alias etc="cd /usr/local/etc"
