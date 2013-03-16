@@ -16,7 +16,7 @@ alias scripts="cd ~/Dropbox/GitHub/scripts/"
 
 # scripts
 alias cdwpb="github; cd wpbuildr"
-alias sbwpb="wpb; subl ."
+alias sbwpb="cdwpb; subl ."
 
 # themes
 alias blueox="github; cd blue-ox"
