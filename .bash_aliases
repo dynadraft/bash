@@ -19,7 +19,7 @@ alias cdwpb="github; cd wpbuildr"
 alias sbwpb="cdwpb; subl ."
 
 # themes
-alias blueox="github; cd blue-ox"
+alias blueox="github; cd blueox"
 alias sbblueox="blueox; subl ."
 
 #documents and stuff
