@@ -8,7 +8,7 @@ PS1="${PS1//\//$usercolor/\[\033[0;1m\]}$usercolor\[\033[0m\]-- \n\h:\[\033[1;30
 
 PROMPT_COMMAND=userprompt
 
-export PATH="$PATH:$HOME/Dropbox/GitHub/scripts:/usr/local/bin:/usr/local:/usr/bin:/usr/local/sbin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/Dropbox/GitHub/scripts:/usr/local/bin:/usr/local:/usr/bin:/usr/local/sbin:/bin:/usr/sbin:/sbin:$PATH"
 #export PATH="$PATH:~/Dropbox/Sites/__TOOLS/scripts/wp-automated-setup"
 export EDITOR="subl -w"
 
