@@ -37,6 +37,7 @@ alias gitignore="subl ~/.gitignore"
 alias svnconfig="subl ~/.subversion/config"
 
 #specific sites
+alias 10up="sites; cd 10up"
 alias clients="sites; cd clients"
 alias sassy="clients; cd sassy"
 alias helio="clients; cd helio"
