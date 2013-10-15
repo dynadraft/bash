@@ -13,6 +13,7 @@ alias shared="cd ~/Dropbox/Shared\ Folders/"
 alias sync="cd ~/Dropbox/Shared\ Folders/Sync/"
 alias tools="cd ~/Dropbox/sites/_TOOLS/"
 alias scripts="cd ~/Dropbox/GitHub/scripts/"
+alias dev="cd ~/Development"
 
 # scripts
 alias cdwpb="github; cd wpbuildr"
