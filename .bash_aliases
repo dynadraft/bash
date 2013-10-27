@@ -61,3 +61,7 @@ alias etc="local; cd etc/"
 
 # User Config
 alias etc="cd /usr/local/etc"
+
+# Vagrant
+alias vg="dev; cd vagrant-web"
+alias sbvg="vg; subl ."
