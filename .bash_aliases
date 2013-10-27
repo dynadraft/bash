@@ -1,7 +1,7 @@
 # Quickly edit this file
 alias sbdotfiles="github; cd dotfiles; subl ."
-alias sbdf="sbdotfiles"
-alias dotfiles="github; cd dotfiles;"
+alias dot="sbdotfiles"
+alias cddot="github; cd dotfiles;"
 
 # quick cd commands
 alias box="cd ~/Dropbox/"
@@ -40,8 +40,10 @@ alias svnconfig="subl ~/.subversion/config"
 #specific sites
 alias 10up="sites; cd 10up"
 alias clients="sites; cd clients"
-alias sassy="clients; cd sassy"
-alias helio="clients; cd helio"
+alias metrocorp="10up; cd metrocorp"
+alias vip="10up; cd vip.wordpress.dev"
+alias wwww="dev; cd vagrant-web/www"
+alias w3="www"
 
 # Sublime Package Directory
 alias packages="cd ~/Library/Application\ Support/Sublime\ Text/Packages"
