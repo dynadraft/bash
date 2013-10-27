@@ -13,7 +13,7 @@ alias shared="cd ~/Dropbox/Shared\ Folders/"
 alias sync="cd ~/Dropbox/Shared\ Folders/Sync/"
 alias tools="cd ~/Dropbox/sites/_TOOLS/"
 alias scripts="cd ~/Dropbox/GitHub/scripts/"
-alias dev="cd ~/Development"
+alias dev="cd ~/dev"
 
 # scripts
 alias cdwpb="github; cd wpbuildr"
@@ -49,7 +49,7 @@ alias w3="www"
 alias packages="cd ~/Library/Application\ Support/Sublime\ Text/Packages"
 
 # Hosts file
-alias hosts="sudo subl /private/etc/hosts"
+alias hosts="sudo vim /private/etc/hosts"
 alias flush="dscacheutil -flushcache"
 
 # Get to homebrew
