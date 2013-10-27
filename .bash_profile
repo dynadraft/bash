@@ -38,7 +38,7 @@ alias "cd.."="cd .."
 
 # From alias.sh
 # go back x directories
-b() {
+function b() {
     str=""
     count=0
     while [ "$count" -lt "$1" ];

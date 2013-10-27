@@ -44,10 +44,7 @@ alias sassy="clients; cd sassy"
 alias helio="clients; cd helio"
 
 # Sublime Package Directory
-alias packages="cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages"
-
-# Quickly edit Subl Preferences
-alias sbpref="subl ~/Dropbox/Shared\ Folders/Sync/Sublime/Preferences.sublime-settings"
+alias packages="cd ~/Library/Application\ Support/Sublime\ Text/Packages"
 
 # Hosts file
 alias hosts="sudo subl /private/etc/hosts"
@@ -62,7 +59,3 @@ alias etc="local; cd etc/"
 
 # User Config
 alias etc="cd /usr/local/etc"
-
-# Hub
-# https://github.com/defunkt/hub
-eval "$(hub alias -s)"
