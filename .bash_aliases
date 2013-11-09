@@ -3,15 +3,18 @@ alias sbdotfiles="github; cd dotfiles; subl ."
 alias dot="sbdotfiles"
 alias cddot="github; cd dotfiles;"
 
+# Quick WP cd commands
+alias themes="cd wp-content/themes";
+alias plugins="cd wp-content/plugins";
+alias cdwp="cd ../../../";
+
 # quick cd commands
 alias box="cd ~/Dropbox/"
-alias dbox="cd ~/Dropbox/"
 alias github="cd ~/Dropbox/GitHub/"
-alias sites="cd ~/Dropbox/sites/"
-alias dev="sites; cd dev"
+alias sites="cd ~/dev/vagrant-web/www"
 alias shared="cd ~/Dropbox/Shared\ Folders/"
 alias sync="cd ~/Dropbox/Shared\ Folders/Sync/"
-alias tools="cd ~/Dropbox/sites/_TOOLS/"
+alias tools="sites; cd _TOOLS/"
 alias scripts="cd ~/Dropbox/GitHub/scripts/"
 alias dev="cd ~/dev"
 
@@ -28,8 +31,6 @@ alias documents="cd ~/Dropbox/Documents/"
 alias docs="cd ~/Dropbox/Documents/; open ."
 alias dox="docs"
 
-#plugins and projects
-alias plugins="dev; cd PLUGINS"
 
 #gitconfig
 alias gitignore="subl ~/.gitignore"
@@ -38,11 +39,11 @@ alias gitignore="subl ~/.gitignore"
 alias svnconfig="subl ~/.subversion/config"
 
 #specific sites
-alias 10up="sites; cd 10up"
 alias clients="sites; cd clients"
-alias metrocorp="10up; cd metrocorp"
-alias vip="10up; cd vip.wordpress.dev"
-alias wwww="dev; cd vagrant-web/www"
+alias metrocorp="sites; cd metrocorp"
+alias metro="metrocorp"
+alias vip="sites; cd vip.wordpress.dev"
+alias www="dev; cd vagrant-web/www"
 alias w3="www"
 
 # Sublime Package Directory
@@ -65,3 +66,4 @@ alias etc="cd /usr/local/etc"
 # Vagrant
 alias vg="dev; cd vagrant-web"
 alias sbvg="vg; subl ."
+alias vup="vg; vagrant up"
