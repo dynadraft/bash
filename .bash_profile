@@ -8,7 +8,7 @@ PS1="${PS1//\//$usercolor/\[\033[0;1m\]}$usercolor\[\033[0m\]-- \n\h:\[\033[1;30
 
 PROMPT_COMMAND=userprompt
 
-export PATH="$HOME/Dropbox/GitHub/WordPress-Builder:$HOME/Dropbox/GitHub/scripts:/opt/subversion/bin:/usr/local/bin:/usr/local:/usr/bin:/usr/local/sbin:/bin:/usr/sbin:/sbin"
+export PATH="$HOME/dev/scripts:$HOME/Dropbox/GitHub/WordPress-Builder:$HOME/Dropbox/GitHub/scripts:/usr/local/etc/bash_completion.d:/usr/local/bin:/usr/local:/usr/bin:/usr/local/sbin:/bin:/usr/sbin:/sbin"
 #export PATH="$PATH:~/Dropbox/Sites/__TOOLS/scripts/wp-automated-setup"
 export EDITOR="subl -w"
 
@@ -64,4 +64,3 @@ alias freq='cut -f1 -d" " ~/.bash_history | sort | uniq -c | sort -nr | head -n 
 if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
-

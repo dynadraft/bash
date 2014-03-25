@@ -67,3 +67,14 @@ alias etc="cd /usr/local/etc"
 alias vg="dev; cd vagrant-web"
 alias sbvg="vg; subl ."
 alias vup="vg; vagrant up"
+
+# Dynamic Aliases
+for i in /Users/tyrun/dev/vagrant-web/www/*
+do 
+   alias $(basename $i)="cd '$i'; cd wp-content"
+done
+
+# Git completion
+if [ -f ~/Dropbox/GitHub/scripts.git-completion.bash ]; then
+  . ~/Dropbox/GitHub/scripts/.git-completion.bash
+fi
