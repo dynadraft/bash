@@ -16,7 +16,7 @@ export EDITOR="subl -w"
 
 
 # Increase size of bash history
-HISTFILESIZE=2500
+HISTFILESIZE=5000
 
 # default add color to ls
 # G - colorized output
