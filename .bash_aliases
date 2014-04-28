@@ -69,7 +69,7 @@ alias sbvg="vg; subl ."
 alias vup="vg; vagrant up"
 
 alias hobby="w3; cd hobby;"
-alias rebel="hobby; cd rebel-trader;"
+alias rebel="w3; cd hobby/rebel-trader;"
 
 # Dynamic Aliases
 for i in /Users/tyrun/dev/vagrant-web/www/*
