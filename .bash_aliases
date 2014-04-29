@@ -41,6 +41,7 @@ alias svnconfig="subl ~/.subversion/config"
 #specific sites
 alias clients="sites; cd clients"
 alias metrocorp="sites; cd metrocorp"
+alias mcf="sites; cd metrocorp/wp-content/plugins/metrocorp-functionality"
 alias metro="metrocorp"
 alias vip="sites; cd vip.wordpress.dev"
 alias www="dev; cd vagrant-web/www"
